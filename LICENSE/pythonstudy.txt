@@ -40,3 +40,43 @@ IronPython
 	>>>name={'alex':[29,'IT']}
 集合类型
 	集合(set)
+http://www.w3cschool.cc
+http://www.runoob.com/
+注释：
+单行注释#
+多行：'''                    '''
+info ='''  q        
+            w      
+d'''
+同时也是多行格式化输出打印；
+字符编码：
+ASCII(8位)
+>>>ord('A')  #65
+>>>ord('a')  #97
+
+Unicode(16位)
+世界上所有国家通过 unicode编码；不会出现乱码
+为解决存储浪费
+UTF-8
+可变长度的存储；
+
+>>>a = 'alex'
+>>>type(a)   #type 'str'
+>>>a =u'alex'   #unicode
+>>>type(a) ...#type 'unicode'
+>>> name = u'中文'  #unicode
+>>>name 
+u'\u8303\u7279'
+>>>print name #中文
+>>>nameUtf8=name.encode('utf-8')
+'xet\x8c\x83'
+>>>len(nameUtf8)   #9
+>>>len(name)       #2
+读入内存都是按 unicode 编码处理的；
+硬盘里  按 utf-8存储的；
+>>>b=nameUtf8.decode('utf-8') #u'\u8303\u7654'
+#_*_coding:utf-8_*_#  程序中出现中文
+导入模块：
+import moduleName
+From module import sayHi
+import moudleName as newName
