@@ -1,0 +1,70 @@
+Git is a disttributed version control system.
+Git is free software distributed under th GPL.
+Git has a mutable index called stage.
+Git tracks changes.
+带你迈入人工智能的殿堂：
+重基础  勤动手 专一门
+六步走学习路线图：
+第一：学习或者回忆一些数学：
+人工智能（机器学习 或 深度学习）本质是一个数学问题
+网络结构  定义一种线性或非线性函数
+优化目标  定义一种损失函数
+训练方法: 选择一种求解最优或次优解；
+机器或深度 是一种横跨统计学，随机过程，优化理论 信息论矩阵分析 多个领域交叉学科；
+条件概率；独立同分布 先验概率 后验概率 贝叶斯公式 回归 马尔可夫过程 SVD分解 最小二乘法 梯度；凸函数 与 凸优化
+必学：概率论统计知识
+
+第二：掌握经典机器学习理论和基本算法
+决策树 贝叶斯分类器 支持向量机 随机森林 等 斯坦福课程：ufldl.stanford.edu/tutorial
+周志华：机器学习
+
+第三 掌握一种编程工具 
+MATLAB
+Python <Numpy sklearn,....>线性代数库  主要矩阵操作；
+
+第四步： 了解行业最新动态和研究成果；
+
+第五步：
+    找一台机器 ，最好带 GPU SuperVessel(https://ptopenlab.com)
+    找一个开源框架, Caffe, Tensorflow
+    找一种深度神经网络，可以从计算机视觉入手；LeNet AlexNet
+    多阅读框架的源代码
+
+第六步：
+	卷积神经网络 计算机视觉 递归神经网络 语音识别合成 强制学习 自然语言处理
+	生成对抗网络.......
+
+12、17
+廖雪峰python 3.0
+markdown 语法；
+
+GitHub
+1)安装好配置：
+$ git config -- global user.name="yourname"
+$ git config -- global user.email="cayujun@hotmail.com"
+2) 创建版本库
+      1)在目录下运行  git init
+      2)把文件添加到仓库：
+      3)git add readme.txt
+      4) 把文件提交到仓库
+      git commit -m "wrote a readme file"
+3)修改文件内容 之后
+       git status 查看状态  已经修改  没有提交；
+       git diff  readme 查看不同
+4）版本回退：
+git reset --hard HEAD^
+git log  / git log --pretty=oneline
+git reflog
+//关联
+$ git remote add origin git@github.com:yujun/learngit.git
+//推送
+$ git push -u origin master   #第一次
+$ git push origin master 以后
+
+$ git clone git@github.com:cayujun/gitskills.git
+
+$ git branch dev #创建分支
+$ git checkout dev #切换分支
+$ git branch 查看当前分支
+$ git merge dev 合并分支
+$ get branch -d dev 删除分支给
