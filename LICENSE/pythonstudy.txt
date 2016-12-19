@@ -1,0 +1,42 @@
+python:
+pythonXY
+protable python
+python 解释器：
+Cpython 官方标准
+Ipython  
+Jython：完整语言；
+PYPY
+IronPython
+变量
+常量
+
+>>> x =2
+>>>z =x 
+>>>id(x)
+>>>id(z)
+>>>x =5
+>>>id(x) # id(z)!=id(x) x与z 独立变量
+
+变量：规范
+加下划线标识变量 task_detail taskDetail
+
+1)数字类型：
+	布尔型：
+	>>>True
+	>>>False
+	整形
+	浮点数
+
+2）序列类型
+	字符串(str)
+	>>>a='alex'
+	>>>type(a)
+	元组(tuple)
+
+	列表(list)
+	name_list=['alex','rachel','erion']
+映像类型
+	字典(dict)
+	>>>name={'alex':[29,'IT']}
+集合类型
+	集合(set)
