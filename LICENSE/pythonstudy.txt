@@ -80,3 +80,14 @@ u'\u8303\u7279'
 import moduleName
 From module import sayHi
 import moudleName as newName
+
+>>>import os
+>>>curDir=os.system('pwd')  #0 存命令返回状态
+>>>a=os.popen('pwd').read()
+>>>a #'/home/alex/'
+>>>import commands
+>>>res = commands.gtestatusoutput('pwd')
+>>>res #(0,'/home/alex')
+可以和系统简单命令交互
+>>>import sys
+>>>print(sys.argv) #命令行 参数
